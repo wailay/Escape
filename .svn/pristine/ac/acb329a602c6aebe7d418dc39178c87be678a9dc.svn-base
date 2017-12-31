@@ -1,0 +1,36 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Graphique;
+
+import org.newdawn.slick.AngelCodeFont;
+import org.newdawn.slick.Color;
+import org.newdawn.slick.Graphics;
+import org.newdawn.slick.Image;
+import org.newdawn.slick.SlickException;
+
+/**
+ *
+ * @author Wail
+ */
+public class HUD {
+    AngelCodeFont font;
+
+    public HUD() throws SlickException {
+        font = new AngelCodeFont("res/text/font/HUD_8pixel.fnt", new Image("res/text/font/HUD_8pixel_0.png"));
+        
+    
+    }
+    
+    
+    
+    
+    public void render(Graphics g){
+       
+        g
+        font.drawString(50, 50, "Name , money, health, mana",Color.black);
+    }
+    
+}

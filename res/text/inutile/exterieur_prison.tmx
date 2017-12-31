@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="20" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="misc" tilewidth="32" tileheight="32" tilecount="24" columns="8">
+  <image source="misc.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="25" name="prison_solid_set" tilewidth="32" tileheight="32" tilecount="100" columns="10">
+  <image source="prison_solid_set.png" width="320" height="320"/>
+ </tileset>
+ <layer name="Calque de Tile 1" width="15" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC52UwQ6AMAhDubGb3Mb/f6ma2KRWcMYDQdl46+rmZmbziE3CjxiLPIvA+Lg4ITy8n3OzYQeNMzOpzuygNVN4rMeFMamfGZ1mZQ/pB+OrZhfPUas0M8ulR31mbUk17VONvOdpz3MRxbzOZ/aW68PuPrs9fdfvEtJXBfYAr71gdMGa84Vf+a3nueLrmdOM5ypWdxBrvmlbaf6Tv/wfuvxHK/IOk+dl97AEAAA=
+  </data>
+ </layer>
+ <layer name="top" width="15" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGNyAEYiZyNTLCcRcA2T2KKAewBdPhOIQXzyNxuHQAwCkaM4FsAQAAA==
+  </data>
+ </layer>
+ <layer name="solid" width="15" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGNxAEoppoZeWZo8C6gF8YU1JHI/G4dADACTMOkSwBAAA
+  </data>
+ </layer>
+</map>

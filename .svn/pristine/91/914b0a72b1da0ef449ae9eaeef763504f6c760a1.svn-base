@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="27" height="27" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="solid" tilewidth="32" tileheight="32" tilecount="100" columns="10">
+  <image source="solid.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="101" name="DungeonCrawl" tilewidth="32" tileheight="32" tilecount="3072" columns="64">
+  <image source="DungeonCrawl_ProjectUtumnoTileset.png" width="2048" height="1536"/>
+ </tileset>
+ <tileset firstgid="3173" name="taverntiles" tilewidth="32" tileheight="32" tilecount="272" columns="17">
+  <image source="celianna_taverntiles.png" width="544" height="512"/>
+ </tileset>
+ <tileset firstgid="3445" name="room" tilewidth="32" tileheight="32" tilecount="100" columns="10">
+  <image source="dungeonex.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="3545" name="roof" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="tiles-tileset.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="3801" name="forst" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="celianna_farmnature_tileset.png" width="512" height="512"/>
+ </tileset>
+ <layer name="solid" width="27" height="27">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NkYGBgHADMQKQacgC6ORxYxLHxqWEXMeoptYsU9aN2DR27KAHk5kFSzWNgoL6/Ru2iLRi1i3p20aK+wmUXJxY5LhrZhU9+KNvFjUWOh0Z2ofuPlmmDHmC420UvDACibCqnZAsAAA==
+  </data>
+ </layer>
+ <layer name="floor" width="27" height="27" visible="0" opacity="0.72">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2WQQ6CMBBFScqSS8jOBFDwzgphi25dqdfSCW38/EyhoLJy8ZICybxOOzOhiaKoWZEu8XOm9SaeR2ZxrlvS0yXv9Y2c8nyf4coIdN3BIesHOSWnS4CLHZl9z64HxGUuE64dxS/pu3NhLOdFpvJCz17xoMvl5APzboz/3DSH5prC1UgeDwnxoGssJ0TOUbv7bMKDrjn9wmd4eJH+yMX8Xd931UpPrJFXqri4Z+YwVu+aS+ZKKL7+whnlKBXX1fjhvVY2ZkrP+G7JfWmunRL38AMXznOMi7luLZ+6+O60sy2+5Aqpf5+PawMdvtoYA+skt86lvXwKcFfxsDeKhS7haHrEK/OoNfoeKvItddVAa/wzEH1r/u8KT/zKqhBkCwAA
+  </data>
+ </layer>
+ <layer name="trigger" width="27" height="27" opacity="0.81">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBQMBsA00A4YBaNgFIwCLIB3oB0whAAbFI8CygALDhqdPdgBADcn6vtkCwAA
+  </data>
+ </layer>
+ <layer name="decor" width="27" height="27" opacity="0.63">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgoC/o5GVg6OJF8KuA7GogroGKKQBpRV7sekkFk4HmTEEyqwXIbgXiNqiYIZA2opJdc4HmzKOSWaNgFIwC2gAnPgYGZyB2AWJXIHYDYnc+2tgVBDQ3GIhDgDgUiMOAOJxGdiUBzU0G4hQgTgXiNCBOp5Fdo2AUjIJRMAqIAwCUxlO0ZAsAAA==
+  </data>
+ </layer>
+ <layer name="decortop" width="27" height="27" visible="0" opacity="0.85">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGFmgknegXUA5UOBjYFAkAivxjdo1lOyiBmjiIR7jA2JA94igYQkquREdqPGhhhEozDVoZJcZ0FxDNGxBI7uQQSAd7IABHRb6mUtLu7DhUTAKRsEoGEoAAD3OBRZkCwAA
+  </data>
+ </layer>
+ <layer name="roof" width="27" height="27" visible="0" opacity="0.84">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgoC+Q4yMey/NRZpceH/FYfwjZZcdHPLan0C4Y0MRhjhaVzB8F+IEsDfMJOtClYdpFB7Z0SLujYBSMglEwCkbBQAAA2WILR2QLAAA=
+  </data>
+ </layer>
+ <layer name="roof2" width="27" height="27" visible="0" opacity="0.68">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3NUQEAEBAFsJfgitCA/rlIcT5sBZb8aVQyq+da99lNFwAA7x1piS1hZAsAAA==
+  </data>
+ </layer>
+</map>

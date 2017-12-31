@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="solid" tilewidth="32" tileheight="32" tilecount="100" columns="10">
+  <image source="solid.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="101" name="DungeonCrawl_ProjectUtumnoTileset" tilewidth="32" tileheight="32" tilecount="3072" columns="64">
+  <image source="DungeonCrawl_ProjectUtumnoTileset.png" width="2048" height="1536"/>
+ </tileset>
+ <tileset firstgid="3173" name="dungeonex" tilewidth="32" tileheight="32" tilecount="100" columns="10">
+  <image source="dungeonex.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="3273" name="celianna_prison_torture" tilewidth="32" tileheight="32" tilecount="288" columns="18">
+  <image source="celianna_prison_torture.png" width="588" height="531"/>
+ </tileset>
+ <layer name="solid" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UMQoAIAiFYZ07Qfe/aGuTRJZ/aA+cpL6iUEVEoYrOq67nXNbaXXflrSjXCvG+1J/+bm53tqND3rWBbgdccl5VcCm72ryq7Fp97/4nexndm6FdogaZzOEtEA4AAA==
+  </data>
+ </layer>
+ <layer name="floor" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC3vJwsDwEohfAfFrIH4D5VMTv8Jhx3dmBoYfQPwTiL8xY+eji1Oi/uWovYPOXmryR+0dtXcw23tqhPmXHHvpYc9gsnekxe+ovaP2jto7au+ovYTtpSeG9c0AT2ct3xAOAAA=
+  </data>
+ </layer>
+ <layer name="trigger" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQEAAACCIP+vbkhAAQAA8Gh7blyXEA4AAA==
+  </data>
+ </layer>
+ <layer name="decor" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2UuQrCQBCG9wXyMpLGq5NtvDpJ49XJNl6dBPUBJHihvRfae6Ev518uOhDYlZ0mA1+Rmfn5Ns0IkVRcpT0hMiALciDv/e6M0ZuAKTGLqxUyayJXRK8EyqACqsTOHL0FWBp4j8iciFwdvQZoghZoEzs79PbgYOB9IPMkcl30eqAPBmBI7FzRu4H718zXvlMGbzItqbkKDr2B5qo59CrN1XHoDTXXyKE30lwzh16u8pn+UTJ5AyavYvKGTN6I6T77TPdZMt3ngOk+K6b7HDLd5yjGtcF8a/Ee0/wZmYuF1zT/QuZt4bXNJ/Wf+gBtTIenEA4AAA==
+  </data>
+ </layer>
+ <layer name="decor2" width="30" height="30" opacity="0.99">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3NMQ0AMAwEsQdQ/kw6h1qGckg62NLNl/C7e17TauEJAADMaQif8nwQDgAA
+  </data>
+ </layer>
+</map>

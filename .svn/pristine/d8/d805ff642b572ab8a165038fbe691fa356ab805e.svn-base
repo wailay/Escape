@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="solid" tilewidth="32" tileheight="32" tilecount="100" columns="10">
+  <image source="solid.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="101" name="DungeonCrawl_ProjectUtumnoTileset" tilewidth="32" tileheight="32" tilecount="3072" columns="64">
+  <image source="DungeonCrawl_ProjectUtumnoTileset.png" width="2048" height="1536"/>
+ </tileset>
+ <tileset firstgid="3173" name="dungeonex" tilewidth="32" tileheight="32" tilecount="100" columns="10">
+  <image source="dungeonex.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="3273" name="celianna_farmnature_tileset" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="celianna_farmnature_tileset.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="3529" name="celianna_taverntiles" tilewidth="32" tileheight="32" tilecount="272" columns="17">
+  <image source="celianna_taverntiles.png" width="544" height="512"/>
+ </tileset>
+ <tileset firstgid="3801" name="celianna_templetiles31" tilewidth="32" tileheight="32" tilecount="774" columns="18">
+  <image source="celianna_templetiles31.png" width="600" height="1394"/>
+ </tileset>
+ <layer name="solid" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3SwQkAMAwDsXT/pfvJCM2jjgQe4MBVAADAtNP7XUoH76R8IqUDAAAAAAC2uwEW5jsQJwAA
+  </data>
+ </layer>
+ <layer name="floor" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2YQQ4CIQxFOYGJq7n/0rN5CVeTIJZSSj8tyOInxkHyH/0UxuuZ0nW0vN6Pb43Oc3/25tB6sJrn3zlKD6j1eKVfzeSg/FFjqeecbzRH6VHCocnULhwIITi897kk9/m4PPsrc+QskTgQ64HY0731sOKgWJA9q/d35RlRm+f2nHtH1alVk1peKA7q3JN8N6Mm0udUL4uQLenZUOtr3J3Ksx4ajhrTKAe37lKPLf8aaeYrvWvOQmtpObz8WnLM9Ea9R9XuMt5+qRrXxO3v6N5zBhSHdg7r3s/1VC572vVA+m/5sOCY4V+TN+l4T/+HYx5H7/0qGgfyf8XdOZCZQrLsyoFmOhx6jhGh8jmbIwKLJV8UjlEm72xZ5c+bQ+rBay9Yc0RRlEycevAc3p4Ox/osXgwffRiQ7xAnAAA=
+  </data>
+ </layer>
+ <layer name="trigger" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAODfAC7KO00QJwAA
+  </data>
+ </layer>
+ <layer name="decor" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2Uyw7BQBiF+wY6K3vPgEfAjiV27YOx4AFc4rrFwmWLhcsWLyFOI6KRaqlqZ5rzJSfNTP7OnNN/pppGiDyUhPv4U4rCffxvTPH0bu1t+tzfEE/v1tMIOYfFw7vT3u/64zRvuKwTNe/647dvYTKAxyE0gsY2v1fdu0Ym5vC1gJbQyuZRF941MrGDrz10gI42jynhXSMr39xzmVH5npP4UMO/ua5718lOCxnaMchBgqOB89CM4Ey0E5rWgbqJYNbrIUM/ghwT+J9Cs4ByRMUa/jfQVvEcJ/g/QxfFcxBCCFGfpLjrdS4O/JIjjXczUDbEb+HUi8e8X3J4Nw8VFO9pGf4rUFXxHIQQQgghhJD4cQOKUHhDECcAAA==
+  </data>
+ </layer>
+ <layer name="decor2" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YsQ3CQAwF0NvgwlDMQFAmAERJRSJmyMZ4ARruJMPpPem3/nbrUvKdailz5Fxz+i/Re43cGvt7zfnWM3rXyNbY32sOkOdxyN4AAAAAAPjk6H/3U5Ype4M+7oPc8Rrkjn2QOwAA/tEbzGPGlBAnAAA=
+  </data>
+ </layer>
+</map>

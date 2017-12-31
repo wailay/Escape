@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="solid" tilewidth="32" tileheight="32" tilecount="100" columns="10">
+  <image source="solid.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="101" name="DungeonCrawl_ProjectUtumnoTileset" tilewidth="32" tileheight="32" tilecount="3072" columns="64">
+  <image source="DungeonCrawl_ProjectUtumnoTileset.png" width="2048" height="1536"/>
+ </tileset>
+ <tileset firstgid="3173" name="dungeonex" tilewidth="32" tileheight="32" tilecount="100" columns="10">
+  <image source="dungeonex.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="3273" name="celianna_taverntiles" tilewidth="32" tileheight="32" tilecount="272" columns="17">
+  <image source="celianna_taverntiles.png" width="544" height="512"/>
+ </tileset>
+ <tileset firstgid="3545" name="celianna_prison_torture" tilewidth="32" tileheight="32" tilecount="288" columns="18">
+  <image source="celianna_prison_torture.png" width="588" height="531"/>
+ </tileset>
+ <layer name="solid" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NkYGBgJAFz4cCkmAHDxAJktRJ45IgxhxT11ALI9lIjPAiZg24XseqHk730BIPBv8PNXnQxdHvpCYZLOBMyg5bxi88sdHl6g+ESv0PJXnqCUXtH7aWXvcSUsdTC9Ab0tneklxsDgQFkPpTKEA4AAA==
+  </data>
+ </layer>
+ <layer name="floor" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACzvDwsBwhgT8k5mB4RsQfwfiH8wIPilmwDA2c7DxCdlLSD+MT6q91OKP2jtq76i9o/aO2jtq76i9o/aO2ju87JXgpT2WBGIpIJbmRdiryUt7rAXE2kCsMwjsHWnhPBAYAMKhCM8QDgAA
+  </data>
+ </layer>
+ <layer name="trigger" width="30" height="30" opacity="0.27">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DsQ0AAAgDoG7+/7FLb9AFEhIAAACuTX9a08XopRAOAAA=
+  </data>
+ </layer>
+ <layer name="decor" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgIA1Y8TIwWCNhOyC25yXREDKAN9AOHyR7/IHsADrYS22QzoMbg0AqD+XmpBNpBjLIJ0MPMQDklkw8mFiAzwxSzKE1QI6DTArihdrxSw6YwoOdjQyKscRFOhnxgi0+B3v8UhIvAxG3hVCzccUlNkDNfDfY8y4I0CN+sZlDbLlPCHTx4OaD4n0Bmjw14ncHATMGWxyPglEwWAGhspla5QQxgJR6ghagYIDs3wfsV+wfgL7FeaCdFwa4TwMA3xX52xAOAAA=
+  </data>
+ </layer>
+ <layer name="decor2" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGDgwjWdwmUMPkAV0azYOnEOCP0g1pwQoVooDl5FgL7XMGa5gNH6HNxiN3+ENRuN3FIyCoQ9w5T1qYmwAV96jJh4pIG0E+XWwAAAwpMbBEA4AAA==
+  </data>
+ </layer>
+</map>

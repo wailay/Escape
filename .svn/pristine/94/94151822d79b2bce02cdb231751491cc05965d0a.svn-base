@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="solid" tilewidth="32" tileheight="32" tilecount="100" columns="10">
+  <image source="solid.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="101" name="DungeonCrawl_ProjectUtumnoTileset" tilewidth="32" tileheight="32" tilecount="3072" columns="64">
+  <image source="DungeonCrawl_ProjectUtumnoTileset.png" width="2048" height="1536"/>
+ </tileset>
+ <layer name="solid" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NkYGBgpBEmFuDSgyxGipm41JHiJlqah88ecvxLyDxqmIVsHrUAuebhi4/BYh42fZSahy9/UMNMaqY5QuZh8wshMwdL+iPHPFL8S4x55ABalPEAyvxrNkAGAAA=
+  </data>
+ </layer>
+ <layer name="floor" width="20" height="20" opacity="0.36">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+XTwQnAIAwFUKn2VNRJO5jQDZyhk3SJGjCQSiw28dbDvwR5JgazNSYLsrtnrlILqzGxxNccbiytg1mKcdYznJm2vkcd6o329OYlp/O43kbmlXi+7iR+6LWdEwJ18LLVz4t1qdfuA++Y5dH3k3qcqfW4/yHxeqbG42af4VEzTPIwf/VmBbwbufMD60AGAAA=
+  </data>
+ </layer>
+ <layer name="decor" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMAvqCcmb8/MECLKjkrqHiX1IBAGxq071ABgAA
+  </data>
+ </layer>
+ <layer name="top" width="20" height="20" opacity="0.8">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGFlgFffgNm8UjIJRMAqGCgAA0cAjfEAGAAA=
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="solid" tilewidth="32" tileheight="32" tilecount="100" columns="10">
+  <image source="solid.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="101" name="dg_tileset" tilewidth="32" tileheight="32" tilecount="3072" columns="64">
+  <image source="DungeonCrawl_ProjectUtumnoTileset.png" width="2048" height="1536"/>
+  <terraintypes>
+   <terrain name="Nouveau terrain" tile="-1"/>
+  </terraintypes>
+ </tileset>
+ <layer name="solid" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2XSwrAMAhEza73P3E3XZXR8RNDCwpCk6hPEqYhS0RWg1+PWzEVYzW7uFrt4Q53uMP9Ijdqwz3LzZ53Jj6TZ9X6E7eiK0ufSMsC5gWMWe+enjJclNfBRbnaNzujDi6LjXK9+7yTy/pgPVS4XvNwtfXIXenReUSD2f/VDu4Jf7/RbvevfrgQDgAA
+  </data>
+ </layer>
+ <layer name="floor" width="30" height="30" opacity="0.6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC8WUTWrDMBCFDVGuUqhpSild9QA9VXsPk1tkEQq5gY8g6BG8bvGuNvHQ8fO8kfwTuvggkix9fqNxDqEoDgOPHXfA2aFfL/ZT6m7+baAmzzyEMZbzdT9F1pj3Z4B5xSHeUvFJnMKJZF7qlbm13naGV+5ZMrM6b5X3ueNJ+e9Vdub2vG2mVxxWf1m5+/HavPpOPe9pQH9H593y+y1DOi8be961dUb+w1tmetuMOmuYtyTOnjpM0V6LXK84LC5AG8bg+sU5aw6WC7043sqbcm/ttWrIXBrrzo8EdH6FK6l7ld/vYexlnhzEy1yWt3HyVYocr4e8U+9twp+X1bly/LI/ZtCovLIP3x+9Vh2O6jyPCM+htzK8kjGqtXhDr5WLeVlNb+m1WOONxlmeF/fmenWvxhneqLy6F5Z6U98y9puXF0Gv3jeHVF6P1P+R10Opvkp5l8Bq8AF87668wPwvZ/eC6hAOAAA=
+  </data>
+ </layer>
+ <layer name="trigger" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3PwQkAIBADwUPtv2Y/ZwmihBnYd0gVZFtd8u4PH2d3jO62V7sAAAk2uA2PiRAOAAA=
+  </data>
+ </layer>
+ <layer name="decor" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQEAAACCIP+vbkhAAQAA8Gh7blyXEA4AAA==
+  </data>
+ </layer>
+</map>

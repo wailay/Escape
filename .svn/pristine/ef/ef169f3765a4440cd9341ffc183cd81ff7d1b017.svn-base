@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="solid" tilewidth="32" tileheight="32" tilecount="100" columns="10">
+  <image source="solid.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="101" name="DungeonCrawl_ProjectUtumnoTileset" tilewidth="32" tileheight="32" tilecount="3072" columns="64">
+  <image source="DungeonCrawl_ProjectUtumnoTileset.png" width="2048" height="1536"/>
+ </tileset>
+ <tileset firstgid="3173" name="dungeonex" tilewidth="32" tileheight="32" tilecount="100" columns="10">
+  <image source="dungeonex.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="3273" name="celianna_prison_torture" tilewidth="32" tileheight="32" tilecount="288" columns="18">
+  <image source="celianna_prison_torture.png" width="588" height="531"/>
+ </tileset>
+ <layer name="solid" width="25" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NkYGBgHGaYHIBLL7XMJ9Z+ZDtgbHE62EEtQMuwQnczNjuoZedA20EtMGoH/e3goYMd+MCoHfjjgFp2EAtGsh2UqCdGHz71YkSqp0Y7g5rmImMOJIxLDQBkI16sxAkAAA==
+  </data>
+ </layer>
+ <layer name="floor" width="25" height="25" opacity="0.5">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC81WQRLDIAjUBuupz+33Y+NEJpSBENRMe9hDDO7CgibrEsL653ilHb/OYxRP2OHdB3D+3IvHxrNM4hqpqccTLX/ONcsrTeOKhzU+CjGz6i4bAuPCNb5ucVa/krAH+TCO8msa3vpKy4NqSLVxDa0H3HOAQwPjpb54wPfH5qGUkzUr6BePk/bFplGc+Wb49tiK9Z6fDHpPpLny+NPTjzs0pJ5RfpxZnAWt7upVvpgL1aH8lqee+uk7eh9Yd8MZ8Ntd0ev92Xmg/wYjOsmojWr0zgr2jMLSfcMBmiuN+QCbjXJQxAkAAA==
+  </data>
+ </layer>
+ <layer name="trigger" width="25" height="25" opacity="0.78">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAXogGWgHUBFwDvQDhgFo2AUjIJRMAqGGRBFwgMJADZzronECQAA
+  </data>
+ </layer>
+ <layer name="decor" width="25" height="25" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC1vJwMCwkg6Yl5U0fJkFwebjZWDg58WtFt0OcoAC0HxFXkxxbHaAQCUPA0MVD3l2YQPY7GgGmt9Cph1ZWMQusGDa0Qs0vw+IWVlIMxub+QwM2P0BAmxA81lYIPQcNuLtQgYHefDbAQLCWOKQFJDBAPEbLjtAcqoU2gEDyHbwkZluQQBfeOILK2oBatqByy/UtgObPeh2POKm3B50wEfl+MDmFz4qpSt8gFppdzDZMRTyx3C2YwEPefX5CqC+lUC8ikBdCTMfmx2E8Cag3s1AvAWI+Vkx0yMfnnYJJbiUBYFxqQEA/8LbQ8QJAAA=
+  </data>
+ </layer>
+</map>
